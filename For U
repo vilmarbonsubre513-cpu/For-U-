@@ -50,7 +50,7 @@
 <body>
   <div class="card">
     <h1>💘 Will you be my Valentine?</h1>
-    <p>Hey <strong>[Their Name]</strong>,<br>
+    <p>Hey <strong>[Aisha]</strong>,<br>
     I just wanted to ask you something special 💕</p>
     <button class="yes" onclick="alert('YAY 💖 You made my day!')">Yes 💞</button>
     <button class="no" onclick="alert('That’s okay 💗 You’re still amazing!')">No 💭</button>
