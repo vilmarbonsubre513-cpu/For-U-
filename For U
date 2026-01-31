@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Will You Be My Valentine?</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: #fff;
+      text-align: center;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      max-width: 350px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+    }
+    button {
+      margin: 10px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .yes {
+      background: #ff4d6d;
+      color: white;
+    }
+    .no {
+      background: white;
+      color: #ff4d6d;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>💘 Will you be my Valentine?</h1>
+    <p>Hey <strong>[Their Name]</strong>,<br>
+    I just wanted to ask you something special 💕</p>
+    <button class="yes" onclick="alert('YAY 💖 You made my day!')">Yes 💞</button>
+    <button class="no" onclick="alert('That’s okay 💗 You’re still amazing!')">No 💭</button>
+  </div>
+</body>
+</html>
